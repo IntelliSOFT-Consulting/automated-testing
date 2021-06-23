@@ -17,10 +17,10 @@ Feature: User Login
       | wrongUser | wrongPas  | object:7      | false  |
       | admin     | Admin123  | object:7      | false  |
       | superman  | Admin123  | object:7      | true   |
-@run
-  Scenario: Just Login
-    When User enters username
-    And User enters password
-    And User Selects Login Location
-    And User Logs in
-    Then User navigates to dashboard
+# @run
+  #Scenario: Just Login
+    #When User enters username
+    #And User enters password
+    #And User Selects Login Location
+    #And User Logs in
+    #Then User navigates to dashboard

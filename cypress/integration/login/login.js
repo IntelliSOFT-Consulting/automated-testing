@@ -1,8 +1,8 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
-beforeEach(() => {
-  cy.loginViaUserInterface();
-});
+// beforeEach(() => {
+//   cy.loginViaUserInterface();
+// });
 
 afterEach(() => {
   cy.end();
