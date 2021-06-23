@@ -1,0 +1,21 @@
+{
+  "name": "automated-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucie Kimotho <me@luciekimotho.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "cypress-localstorage-commands": "^1.4.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
