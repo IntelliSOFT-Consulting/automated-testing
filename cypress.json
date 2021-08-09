@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://test.mtiba.intellisoftkenya.com",
+    "env": {
+        "username": "clerk",
+        "password": "Clerk123",
+        "location": "Registration Desk",
+        "apiServer": "https://demo.openmrs.org/openmrs"
+      },
+    "ignoreTestFiles": ["*.js", "*.md"],
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false
+}

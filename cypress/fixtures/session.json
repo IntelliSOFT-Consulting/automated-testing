@@ -1,0 +1,17 @@
+{
+    "authenticated": true,
+    "locale": "en",
+    "sessionLocation": {
+    "uuid": "2131aff8-2e2a-480a-b7ab-4ac53250262b",
+    "display": "Isolation Ward"
+        },
+    "user": {
+        "uuid": "45ce6c2e-dd5a-11e6-9d9c-0242ac150002",
+        "display": "admin",
+        "username": "admin",
+        "person": {
+            "uuid": "24252571-dd5a-11e6-9d9c-0242ac150002",
+            "display": "Super User"
+        }
+    }
+}
